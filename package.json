@@ -1,0 +1,26 @@
+{
+  "name": "fis-parser-jade",
+  "description": "A parser for fis to compile jade file.",
+  "version": "0.0.7",
+  "author": {
+    "name": "FIS Team",
+    "email": "fis@baidu.com"
+  },
+  "homepage": "https://github.com/ssddi456/fis-parser-jade",
+  "keywords": [
+    "fis",
+    "jade"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssddi456/fis-parser-jade"
+  },
+  "dependencies": {
+    "jade": ">=0.30.0"
+  }
+}

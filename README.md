@@ -1,4 +1,4 @@
 fis-parser-jade
 ===============
 
- jade compile util for fis
+A parser for fis to compile jade file.
