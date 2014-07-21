@@ -25,13 +25,14 @@ fis.config.set('modules.parser.jade', 'jade');
 fis.config.set('roadmap.ext.jade', 'html');
 ```
 
-### 添加自定义filter
+### 添加自定义filter与jade编译设置
 
 ```javascript
 var jadeConf = {
 	filters : {
 		jadesrc : require('jade-highlighter')
-	}
+	},
+  pretty  : true
 };
 
 fis.config.set('settings.parser.jade', jadeConf);
