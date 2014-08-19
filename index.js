@@ -7,6 +7,7 @@
 
 
 var jade = require('jade');
+var basedir = fis.project.getProjectPath();
 
 module.exports = function(content, file, conf){
   var data = {};
@@ -22,6 +23,7 @@ module.exports = function(content, file, conf){
       jade.filters[filter] = conf.filters[filter].bind(file);
     });
   }
+  conf.basedir = conf.basedir || basedir;
   var template = jade.compile( content, conf );
   template.dependencies.forEach(function(dep){
     file.cache.addDeps(dep);
