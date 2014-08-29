@@ -16,7 +16,6 @@ module.exports = function(content, file, conf){
     if (data instanceof Function){
       data = data(file);
     }
-    delete conf.data;
   }
   if (conf.filters) {
     Object.keys(conf.filters).forEach(function(filter) {
