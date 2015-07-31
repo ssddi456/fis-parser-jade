@@ -1,7 +1,7 @@
 {
   "name": "fis-parser-jade",
   "description": "A parser for fis to compile jade file.",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "author": {
     "name": "FIS Team",
     "email": "fis@baidu.com"
@@ -21,6 +21,6 @@
     "url": "https://github.com/ssddi456/fis-parser-jade"
   },
   "dependencies": {
-    "jade": "1.4.2"
+    "jade": ">1.4.2"
   }
 }
